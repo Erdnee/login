@@ -1,0 +1,11 @@
+post http://localhost:3000/login
+Content-Type: application/x-www-form-urlencoded
+
+un=erdenee&pw=123
+
+###
+
+post http://localhost:3000/login
+Content-Type: application/json
+
+{"un":"erdenee","pw":1235}
